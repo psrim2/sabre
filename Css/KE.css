@@ -121,8 +121,9 @@ body:has(.ke_container){background-color: #B5D4F1 ;}
 
 /* PHONE */
 @media screen and (max-width:600px) {
-	.ke_ars{bottom: 10%; padding: 10px 10px 10px 25px;}
-	.ke_ars p + p{font-size: 14px;}
+	.ke_ars{bottom: 10%; padding: 10px 10px 10px 25px; }
+	.ke_ars li{font-size: 14px;}
+	.ke_ars li:first-child, .ke_ars li span{font-size: 12px;}
 	.ke_wrap{padding: 30px;}
 	.ke_wrap .ke_title_wrap h1 { font-size: 40px; line-height: 50px;}
 	.ke_wrap .ke_title_wrap h3{font-size: 16px; line-height: 22px;}
