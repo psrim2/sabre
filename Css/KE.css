@@ -91,13 +91,14 @@ body:has(.ke_container){background-color: #B5D4F1 ;}
 .ke_wrap .ke_menu_wrap li a:hover *{color: #fff; fill: #fff;}
 
 .ke_ars{position: fixed; top: 120px; left: 0; z-index: 60; background-color: rgba(30,100,220,.8);  backdrop-filter: blur(2px); padding: 10px 40px 10px 25px; border-radius: 0 50px 50px 0; box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .35);}
-.ke_ars p:first-child{color: var(--han03);}
-.ke_ars p+p{font-size: 16px; font-weight: bold; color: #fff;}
+.ke_ars li{font-size: 16px; font-weight: bold; color: #fff; line-height: 20px; text-decoration: none;}
+.ke_ars li:first-child{color: var(--han03); font-size: 14px; font-weight: normal; margin-bottom: 3px;}
+.ke_ars li span{font-weight: normal; padding-left: 3px; font-size: 14px;}
 
 /* TABLET */
 @media screen and (max-width:1147px) {
-	.ke_ars{top: auto; bottom: 23%; right: 0; left: auto; border-radius: 50px 0 0 50px; padding: 10px 25px 10px 40px;}
-	.ke_ars p{text-align: right;}
+	.ke_ars{top: auto; bottom: 23%; right: 0; left: auto; border-radius: 50px 0 0 50px; padding: 10px 15px 10px 30px;}
+	.ke_ars li{text-align: right;}
 	.ke_container{height: fit-content;}
 	.ke_wrap{padding: 40px;}
 	.ke_wrap .ke_visual_wrap{flex-direction: column;}
