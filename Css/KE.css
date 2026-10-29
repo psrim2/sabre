@@ -96,7 +96,7 @@ body:has(.ke_container){background-color: #B5D4F1 ;}
 
 /* TABLET */
 @media screen and (max-width:1147px) {
-	/* .ke_ars{display: none;} */
+	.ke_ars{top: auto; bottom: 120px; right: 0; left: auto; border-radius: 50px 0 0 50px; padding: 10px 25px 10px 40px;}
 	.ke_container{height: fit-content;}
 	.ke_wrap{padding: 40px;}
 	.ke_wrap .ke_visual_wrap{flex-direction: column;}
