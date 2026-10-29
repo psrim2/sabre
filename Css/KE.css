@@ -97,8 +97,9 @@ body:has(.ke_container){background-color: #B5D4F1 ;}
 
 /* TABLET */
 @media screen and (max-width:1147px) {
-	.ke_ars{top: auto; bottom: 23%; right: 0; left: auto; border-radius: 50px 0 0 50px; padding: 10px 15px 10px 30px;}
-	.ke_ars li{text-align: right;}
+	.ke_ars{top: auto; bottom: 23%; right: 0; left: auto; border-radius: 50px 0 0 50px; padding: 8px 10px 8px 25px;}
+	.ke_ars li{text-align: right; font-size: 14px; line-height: 16px;}
+	.ke_ars li:first-child, .ke_ars li span{font-size: 12px;}
 	.ke_container{height: fit-content;}
 	.ke_wrap{padding: 40px;}
 	.ke_wrap .ke_visual_wrap{flex-direction: column;}
@@ -121,9 +122,7 @@ body:has(.ke_container){background-color: #B5D4F1 ;}
 
 /* PHONE */
 @media screen and (max-width:600px) {
-	.ke_ars{bottom: 10%; padding: 8px 10px 8px 25px; }
-	.ke_ars li{font-size: 14px; line-height: 16px;}
-	.ke_ars li:first-child, .ke_ars li span{font-size: 12px;}
+	.ke_ars{bottom: 10%; }
 	.ke_wrap{padding: 30px;}
 	.ke_wrap .ke_title_wrap h1 { font-size: 40px; line-height: 50px;}
 	.ke_wrap .ke_title_wrap h3{font-size: 16px; line-height: 22px;}
